@@ -21,5 +21,5 @@ def math_d_t(period_result):
     return d_t
 
 def math_d_g(t, d_t, l, g):
-    d_g = round(g * ((((d_t ** 2/t ** 2) ** 2) + l ** 2) ** 0.5),3)
+    d_g = round(g * ((((d_t ** 2/t ** 2) ** 2) + (0.03/l) ** 2) ** 0.5),3)
     return d_g
